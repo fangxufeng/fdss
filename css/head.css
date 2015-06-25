@@ -1,0 +1,156 @@
+
+/* html { */
+/*     filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); */
+/*     -webkit-filter: grayscale(100%); */
+/* } */
+
+body {
+    font-family:榛戜綋,鑻规灉涓介粦,Verdana;
+    font-size:13px;
+    line-height:1.6;
+}
+
+h3 {
+    font-family:榛戜綋,鑻规灉涓介粦;
+}
+
+.en-text {
+    font-family:Verdana;
+}
+
+.boxed-layout {
+    box-shadow:0px 0px #FFF;
+    background-image:url("../fudanImage/bg.png");
+    background-repeat:repeat-x;
+    background-color:#f6f6f6;
+    min-width:1170px;
+}
+
+.boxed-layout .container {
+     min-width:1170px;
+}
+/* boxed-column------------------------------
+*/
+
+.boxed-col-md-3, .boxed-col-md-4, .boxed-col-md-5, .boxed-col-md-6, .boxed-col-md-7, .boxed-col-md-8, .boxed-col-md-9, .boxed-col-md-12 {
+    float:left;
+    position:relative;
+    min-height:1px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.boxed-col-md-3 {
+    width:25%;
+}
+
+.boxed-col-md-4 {
+    width:33.3333%;
+}
+
+.boxed-col-md-5 {
+    width:41.6667%;
+}
+
+.boxed-col-md-6 {
+    width:50%;
+}
+
+.boxed-col-md-7 {
+    width:58.3333%;
+}
+
+.boxed-col-md-8 {
+    width:66.6667%;
+}
+
+.boxed-col-md-9 {
+    width:75%;
+}
+
+.boxed-col-md-12 {
+    width:100%;
+}
+
+/*-------------------------------------*/
+
+a:hover {
+    color:black
+}
+
+.topbar ul.loginbar > li > a {
+    color:white;
+}
+
+.topbar ul.loginbar > li > a:hover {
+    color:white;
+}
+
+.wrapper {
+    background-color:#f6f6f6;
+}
+
+.header {
+    background-color:#0e419c;
+    border-bottom:0px;
+    height:180px;
+}
+
+.header .search {
+    position:relative;
+    top:50px;
+}
+
+.header .search input {
+    border-radius:15px;
+    padding-left:10px;
+}
+
+.header .navbar-nav {
+    position:relative;
+    top:110px;
+    float:left;
+    z-index:1;
+    margin:0px;
+}
+
+.header .navbar-nav > li {
+    text-align:center;
+    background-image:url("../fudanImage/fudan_nav_inactive_03.png");
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.071), inset 0.5px 0.866px 3px 0px rgba(0, 0, 0, 0.118);
+    width:190px;
+    height:60px;
+    color:white;
+    float:left;
+}
+
+.header .navbar-nav > li:hover {
+    background-image:url("../fudanImage/fudan_nav_active_03.png");
+    //border-bottom:2px solid #ffffff;
+}
+
+.header .navbar-nav > li > a{
+    width:100%;
+    height:100%;
+    line-height:42px;
+}
+
+.header .navbar-default .navbar-nav > li > a {
+    color:white !important;
+}
+
+.header .navbar-nav > li > .dropdown-menu  {
+    min-width:190px;
+    width:190px;
+    border-top:0px;
+    border-bottom:0px;
+}
+
+.header .dropdown-menu li a {
+    line-height:42px;
+}
+
+:not(.open) > .dropdown-menu {
+    display:none !important;
+}
+
