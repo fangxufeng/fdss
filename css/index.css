@@ -198,7 +198,7 @@
 .part .item .title {
     color:#222222;
     font-size:14px;
-    font-family:寰蒋闆呴粦,瀹嬩綋,arial, helvatica;
+    font-family:微软雅黑,宋体,arial, helvatica;
 }
 
 #headlines .item .title {
@@ -217,7 +217,7 @@
     margin-bottom:5px;
     color:#888888;
     font-size:12px;
-    font-family:瀹嬩綋;
+    font-family:宋体;
     /* height:42px; */
     /* overflow:hidden; */
     /* white-space:nowrap; */
@@ -481,7 +481,7 @@
 /*--footer end--*/
 
 #user h5{
-font-family:寰蒋闆呴粦,"Microsoft Yahei",simsun,arial,helvatica
+font-family:微软雅黑,"Microsoft Yahei",simsun,arial,helvatica
 }
 
 #user .btn p{

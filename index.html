@@ -2,15 +2,167 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title></title>
         <!--引外部资源 MyCss.css-->
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+       
+        <link rel="stylesheet" href="/css/fdstyle.css" type="text/css">
+        <link rel="stylesheet" href="/css/header.css" type="text/css">
+         
+        <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
     </head>
-    <body>
-        <div class="header">
+    <body class="boxed-layout">
+    <div class="wrapper">
+    <!--=== Header ===-->
+    <div class="header">
+      <!-- Topbar -->
+       <div class="topbar">
+       <div class="container">
+          <ul class="loginbar pull-right">
+              <li>
+                <a href=""> 复旦大学1</a>  
+              </li>
+              <li class="topbar-devider"></li>
+              <li>
+                <a href=""> 复旦大学1</a>  
+              </li>
+              <li class="topbar-devider"></li>
+              <li>
+                <a href=""> 复旦大学1</a>  
+              </li>
+              <li class="topbar-devider"></li>
+              <li>
+                <a href=""> 复旦大学1</a>  
+              </li>
+              <li class="topbar-devider"></li>
+              <li>
+                <a href=""> 复旦大学1</a>  
+              </li>
+          </ul>
+           
+       </div>
         
-        <img src="img/fudan-logo.png"> </img>
     </div>
+    <!-- End Topbar -->
+    <!-- Navbar -->
+    <div class="navbar navbar-default" role="navigation">
+       <div class="container">
+          <div class="navbar-header" style="float:left">
+            
+              <a class="navbar-brand" href>
+                  <img id="logo-header" src="img/fudan-logo.png" alt="logo">
+              </a>          
+          </div>
+            <div class="collapse " style="position:absolute;display:block">
+                    <ul class="nav navbar-nav">
 
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                复旦概况
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a href="/channels/view/43">治理架构</a></li>
+			      <li><a href="/channels/view/71">辉煌校史</a></li>
+			      <li><a href="/channels/view/73">统计概览</a></li>
+			      <li><a href="/channels/view/74">复旦标志</a></li>
+			      <li><a href="/channels/view/101">规章制度</a></li>
+			      <li><a href="/channels/view/75">访问复旦</a></li>
+                            </ul>
+                        </li>
+
+			<li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                人才培养
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a href="/channels/view/44">师资队伍</a></li>
+			      <li><a href="/channels/view/48">通识教育</a></li>
+			      <li><a href="/channels/view/49">本科生教育</a></li>
+			      <li><a href="/channels/view/50">研究生教育</a></li>
+			      <li><a href="/channels/view/52">留学生教育</a></li>
+			      <li><a href="/channels/view/53">继续教育</a></li>
+                            </ul>
+                        </li>
+
+			<li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                科学研究
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a href="/channels/view/54">学科建设</a></li>
+			      <li><a href="/channels/view/57">人文与社科</a></li>
+			      <li><a href="/channels/view/56">理学与工程</a></li>
+			      <li><a href="/channels/view/121">医学</a></li>
+			      <li><a href="/channels/view/115">产业化•合作</a></li>
+			      <li><a href="/channels/view/59">学术刊物</a></li>
+                            </ul>
+                        </li>
+
+			<li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                机构设置
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a href="/channels/view/61">院系专业</a></li>
+			      <li><a href="/channels/view/58">科研机构</a></li>
+			      <li><a href="/channels/view/63">附属医院</a></li>
+			      <li><a href="/channels/view/64">党政服务</a></li>
+                            </ul>
+                        </li>
+
+			<li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                文化生活
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a href="/channels/view/77">讲座•论坛</a></li>
+			      <li><a href="/channels/view/78">第二课堂</a></li>
+			      <li><a href="/channels/view/116">书院生活</a></li>
+			      <li><a href="/channels/view/100">校园媒体</a></li>
+                            </ul>
+                        </li>
+
+			<li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                公共服务
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a href="/channels/view/107">学术服务</a></li>
+			      <li><a href="/channels/view/117">文化服务</a></li>
+			      <li><a href="/channels/view/108">网络服务</a></li>
+			      <li><a href="/channels/view/109">生活服务</a></li>
+			      <li><a href="/channels/view/118">行政管理</a></li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </div> 
+             <div class="search pull-right">
+           <form action="http://websearch.fudan.edu.cn/search.jsp" method="post" id="search">
+		    <div class="">
+		      <input type="text" name="query" placeholder="搜索" class="search_word right">
+		      <span id="sub" class="glyphicon glyphicon-search" style="position:relative;right:25px;top:10px"></span>
+          	    </div>
+        	  </form> 
+        </div>          
+       </div>
+   
+   
+    </div>
+    <!-- End Navbar -->       
+    </div>
+    <!--=== End Header ===-->
+    
+    <div class="container">
+        
+    </div>
+        
+    </div>
+    <!--=== Copyright ===-->
+     <div class="copyright">       
+     </div>
+     <!--=== End Copyright ===-->     
+     <script type="text/javascript" src="/plugins/jquery-2.1.4.min.js"></script>
+     <script type="text/javascript" src="/plugins/bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>

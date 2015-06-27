@@ -5,13 +5,13 @@
 /* } */
 
 body {
-    font-family:榛戜綋,鑻规灉涓介粦,Verdana;
+    font-family:黑体,苹果丽黑,Verdana;
     font-size:13px;
     line-height:1.6;
 }
 
 h3 {
-    font-family:榛戜綋,鑻规灉涓介粦;
+    font-family:黑体,苹果丽黑;
 }
 
 .en-text {
@@ -20,7 +20,7 @@ h3 {
 
 .boxed-layout {
     box-shadow:0px 0px #FFF;
-    background-image:url("../fudanImage/bg.png");
+    background-image:url("/img/bg.png");
     background-repeat:repeat-x;
     background-color:#f6f6f6;
     min-width:1170px;
@@ -116,7 +116,7 @@ a:hover {
 
 .header .navbar-nav > li {
     text-align:center;
-    background-image:url("../fudanImage/fudan_nav_inactive_03.png");
+    background-image:url("/img/fudan_nav_inactive_03.png");
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.071), inset 0.5px 0.866px 3px 0px rgba(0, 0, 0, 0.118);
     width:190px;
     height:60px;
@@ -125,7 +125,7 @@ a:hover {
 }
 
 .header .navbar-nav > li:hover {
-    background-image:url("../fudanImage/fudan_nav_active_03.png");
+    background-image:url("/img/fudan_nav_inactive_03.png");
     //border-bottom:2px solid #ffffff;
 }
 
